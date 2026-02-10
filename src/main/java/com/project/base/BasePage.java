@@ -29,7 +29,7 @@ public class BasePage {
         el.clear();
         el.sendKeys(value);
     }
-    //i am comment
+
     protected void pressEnter(By locator) {
         waitFor(locator).sendKeys(Keys.ENTER);
     }
