@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-10T11:42:39 IST" name="Default suite" finished-at="2026-02-10T11:43:27 IST" duration-ms="47827">
+    <groups>
+    </groups>
+    <test started-at="2026-02-10T11:42:39 IST" name="Default test" finished-at="2026-02-10T11:43:27 IST" duration-ms="47827">
+      <class name="com.project.testcases.TestPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.project.testcases.TestPage@30ee2816]" started-at="2026-02-10T11:42:39 IST" name="setUp" finished-at="2026-02-10T11:42:50 IST" duration-ms="11091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchApplyFiltersAndPrint()[pri:1, instance:com.project.testcases.TestPage@30ee2816]" started-at="2026-02-10T11:42:50 IST" name="searchApplyFiltersAndPrint" finished-at="2026-02-10T11:43:02 IST" duration-ms="11694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchApplyFiltersAndPrint -->
+        <test-method signature="clearFilters()[pri:2, instance:com.project.testcases.TestPage@30ee2816]" started-at="2026-02-10T11:43:02 IST" name="clearFilters" finished-at="2026-02-10T11:43:03 IST" depends-on-methods="com.project.testcases.TestPage.searchApplyFiltersAndPrint" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFilters -->
+        <test-method signature="openEnterpriseAndSubmitForm()[pri:3, instance:com.project.testcases.TestPage@30ee2816]" started-at="2026-02-10T11:43:03 IST" name="openEnterpriseAndSubmitForm" finished-at="2026-02-10T11:43:18 IST" depends-on-methods="com.project.testcases.TestPage.searchApplyFiltersAndPrint" duration-ms="14667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openEnterpriseAndSubmitForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.project.testcases.TestPage@30ee2816]" started-at="2026-02-10T11:43:18 IST" name="tearDown" finished-at="2026-02-10T11:43:27 IST" duration-ms="9422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.project.testcases.TestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
