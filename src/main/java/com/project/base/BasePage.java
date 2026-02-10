@@ -9,7 +9,6 @@ public class BasePage {
     protected WebDriver driver;
     protected WebDriverWait wait;
     protected JavascriptExecutor js;
-
     public BasePage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -29,11 +28,11 @@ public class BasePage {
         el.clear();
         el.sendKeys(value);
     }
-    //i am comment
+
     protected void pressEnter(By locator) {
         waitFor(locator).sendKeys(Keys.ENTER);
     }
-
+    int a=0;//hyhn
     protected void scrollToBottom() {
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
