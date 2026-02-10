@@ -32,7 +32,7 @@ public class BasePage {
     protected void pressEnter(By locator) {
         waitFor(locator).sendKeys(Keys.ENTER);
     }
-    int a=0;
+    int a=0;//hyhn
     protected void scrollToBottom() {
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
